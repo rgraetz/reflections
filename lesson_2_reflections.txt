@@ -6,3 +6,18 @@ staging area contains files that will be committed in future. With staging area 
 
 How can you use the staging area to make sure you have one commit per logical change?
 Control what is put in staging area and compare staging area with last commit to ensure it is only one logical change that is being committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Want to keep a working version of the project (for demos etc.) while making some experimental changes that might break the project.
+Allows work in parallel
+
+How do the diagrams help you visualize the branch structure?
+visualization of commits, branches and their prarents etc. Understand the flow of work
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Changes are merged together. If a something is removed in one branch and is present in parent it is removed in merge. If something is added on one branch and is not present in parent it is added in merge.
+Merge has features from both branches therefore it has two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: easy and effortless
+cons: conflicts can arise and it isn't perfect and could break code sections
