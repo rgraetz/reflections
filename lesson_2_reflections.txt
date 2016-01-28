@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+creates background files necessary to track file changes
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area contains files that will be committed in future. With staging area you can select which files you want to put in a commit, instead of committing all changes files in the working directory.
